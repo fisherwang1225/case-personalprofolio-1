@@ -1,0 +1,141 @@
+
+.cid-t3BXBRHmmt { 
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .cid-t3BXBRHmmt p{
+        display:inline;
+    }
+}
+
+@media (max-width: 992px) {
+    .mbr-fullscreen {
+        display: flex;
+        align-items: center;
+        min-height: 80vh;
+    }
+
+}
+
+.cid-t3BGtMBIG71{
+    position: fixed;
+    left:0;
+    bottom: 2rem;
+    z-index: 1000;
+}
+
+.sidenav{
+    background: transparent;
+    padding: 5px;
+}
+
+.sidenav .sidenav-icon{
+    background: transparent;
+    width: 2rem;
+    margin: 5px 0;
+}
+
+.cid-t3CkA71xDn, .cid-t3BT7lcH8R .cid-t3CskFoOja{
+    margin-top: 5rem;
+}
+
+
+.cid-t3BXBRHmmt .row{
+
+    padding: 1rem;
+    border: solid black 5px;
+    text-align: center;
+}
+
+.line-hight-2 {
+    line-height: 2;
+}
+
+.cid-t3BXBRHmmt p{
+    line-height: ;
+    font-size: 20px;
+}
+
+.cid-t3CkMnvnhC p{
+    line-height: 2;
+    font-size: 20px;
+}
+
+.cid-t3BXiRSTSL p{
+    line-height: 2;
+    font-size: 20px;
+}
+
+.cid-t3BXiRSTSL p{
+    line-height: 2;
+    font-size: 20px;
+}
+
+
+.animatedimg {
+    position: relative;
+}
+
+.img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.img-overlay{
+    position: absolute;
+    top: 0;bottom: 0;left: 0;right: 0;
+    height: 100%;width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.animatedimg:hover .img-overlay{
+    opacity: 1;
+}
+
+.animatedimg-text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.cid-t3CkA71xDn .card-text{
+    font-size: 1rem;;
+}
+video{
+    height:30rem;
+}
+
+
+@media (max-width: 992px) {
+    
+    
+    .cid-t3CkMnvnhC .text-wrapper, .video-wrapper{
+        margin-top: 2rem;
+        justify-content: center;
+    }
+    .col-reverse{
+        flex-direction: column-reverse;
+    }
+    video{
+        width: 100%; 
+    }
+    p{
+        text-align: center;
+    }
+  }
+
+@media (min-width: 768px) {
+    .cid-t3CmMs5C4a p{
+        display:inline;
+    }
+}
